@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/temples"
+        style="@style/CategoryStyle"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:background="@drawable/lotus"
+        android:text="@string/category_temples"
+        android:tint="@android:color/transparent"
+        android:tintMode="src_in"
+        android:focusable="true" />
+    <TextView
+        android:id="@+id/forts"
+        style="@style/CategoryStyle"
+        android:layout_weight="1"
+        android:background="@drawable/fort1"
+        android:text="@string/category_forts" />
+    <TextView
+        android:id="@+id/parks"
+        style="@style/CategoryStyle"
+        android:layout_weight="1"
+        android:background="@drawable/grass"
+        android:text="@string/category_parks" />
+    <TextView
+        android:id="@+id/others"
+        style="@style/CategoryStyle"
+        android:layout_weight="1"
+        android:background="@drawable/download"
+        android:text="@string/category_others" />
+
+
+
+
+
+</LinearLayout>

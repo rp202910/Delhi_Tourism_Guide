@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Delhi Tourism Guide</string>
+    <string name="category_temples">Holy Places</string>
+    <string name="category_forts">Forts</string>
+    <string name="category_parks">Parks</string>
+    <string name="category_others">Others</string>
+</resources>
